@@ -1,6 +1,9 @@
 * {
   font-family: sans-serif;
 }
+body{
+  margin: 2rem;
+}
 input,
 button {
   font-size: 20px;
@@ -20,4 +23,9 @@ button:nth-last-child(2),
 button:nth-last-child(1) {
   background: tomato;
   color: white;
+}
+
+span{
+  margin-left: 10px;
+  font-size: 2rem;
 }

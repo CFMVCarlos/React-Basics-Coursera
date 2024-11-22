@@ -1,6 +1,6 @@
 # React Basics Projects - Coursera by Meta
 
-This repository contains a collection of projects developed during the React Basics course by Meta on Coursera. Each project demonstrates specific React concepts and techniques, offering hands-on experience in building React applications and applying React principles.
+This repository contains a collection of projects developed during the "React Basics" and "Advanced React" courses by Meta on Coursera. Each project demonstrates specific React concepts and techniques, offering hands-on experience in building React applications and applying React principles.
 
 ---
 
@@ -10,7 +10,7 @@ This repository contains a collection of projects developed during the React Bas
    A foundational React application to understand the basic setup and structure.
 
 2. **Calculator**  
-   A functional calculator app created with React to explore state and props.
+   A functional calculator app created with React to explore state and props. This is the final project of the "React Basics" course.
 
 3. **Advanced React App**  
    Demonstrates advanced React concepts and design patterns.
@@ -85,7 +85,15 @@ Feel free to contribute to this repository by creating a pull request. Suggestio
 
 ---
 
-## Final Project Overview
+## Basics Final Project Overview
+### Calculator
+The calculator project is a simple React application that performs basic arithmetic operations. The calculator includes a display screen, buttons for numbers and operators, and a clear button to reset the display. The project demonstrates the use of state and props in React components, as well as event handling and conditional rendering.
+<br><br>
+![Calculator](repository-images/Calculator.png)
+
+---
+
+## Advanced Final Project Overview
 
 ### Navigation Bar
 The navigation bar contains essential links for easy access, including:

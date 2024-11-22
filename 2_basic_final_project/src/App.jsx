@@ -57,8 +57,6 @@ function App() {
         <h1>Simplest Working Calculator</h1> {/* Display title */}
       </div>
       <form>
-        <p>{result}</p> {/* Display the current result */}
-        
         {/* Input field for entering the number, controlled by state */}
         <input
           value={inputValue}
@@ -66,17 +64,24 @@ function App() {
           type="number" // Restrict input type to numbers
           placeholder="Type a number" // Placeholder text
           ref={inputRef} // Reference to the input field (can be used for focus or other actions)
+          style={{display: "inline-block"}}
         />
-        
-        {/* Buttons for different operations */}
-        <button onClick={(e) => calculate(e, "+")}>Add</button>
-        <button onClick={(e) => calculate(e, "-")}>Subtract</button>
-        <button onClick={(e) => calculate(e, "*")}>Multiply</button>
-        <button onClick={(e) => calculate(e, "/")}>Divide</button>
 
-        {/* Buttons to reset the input or result */}
-        <button onClick={resetInput}>Reset Input</button>
-        <button onClick={resetResult}>Reset Result</button>
+        <span>{result}</span> {/* Display the current result */}
+        
+        
+        <div>
+          {/* Buttons for different operations */}
+          <button onClick={(e) => calculate(e, "+")}>Add</button>
+          <button onClick={(e) => calculate(e, "-")}>Subtract</button>
+          <button onClick={(e) => calculate(e, "*")}>Multiply</button>
+          <button onClick={(e) => calculate(e, "/")}>Divide</button>
+        
+        
+          {/* Buttons to reset the input or result */}
+          <button onClick={resetInput}>Reset Input</button>
+          <button onClick={resetResult}>Reset Result</button>
+        </div>
       </form>
     </div>
   );
