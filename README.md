@@ -100,6 +100,8 @@ The navigation bar contains essential links for easy access, including:
 - **Email** for direct communication
 - **GitHub**, **LinkedIn**, **Medium**, and **Stack Overflow** for professional profiles
 - Links to project sections, such as **Projects** and **Contact Me**, allowing users to quickly navigate to relevant parts of the website.
+- Smooth hide and show animation when scrolling up or down.
+<br><br>![Calculator](repository-images/React-App-0.png)
 
 ### Landing Section
 The landing section provides a brief introduction with an image of myself, a warm greeting, and heading text to capture the user’s attention and set the tone for the website.
